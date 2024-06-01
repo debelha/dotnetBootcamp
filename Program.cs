@@ -1,8 +1,58 @@
 ﻿using System.Diagnostics;
 using bootcamp.NET.models;
+using dotnetBootcamp.models;
 
 
-/* OPERATORS
+
+
+
+
+/* 
+//10- Incremento e decremento
+int numero = 10;
+
+Console.WriteLine(numero);
+
+Console.WriteLine("Incrementando o 10"); 
+numero++;
+
+Console.WriteLine(numero); 
+
+
+
+
+
+
+//9- Classe Math: funções trigonométricas
+Calculadora calc = new Calculadora();
+
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+
+
+
+
+
+// 8- Classe Math: potência
+Calculadora calc = new Calculadora();
+calc.Potencia(3, 3);
+
+
+
+
+
+// 7- Operadores aritiméticos 
+Calculadora calc = new Calculadora();
+
+calc.Somar(10, 30);
+calc.Subtrair(10, 50);
+calc.Multiplicar(15, 45);
+calc.Dividir(2, 2);
+
+
+
+
 
 //6- OPERADORES LÓGICOS: ! 
 
