@@ -1,13 +1,96 @@
-﻿using System.Diagnostics;
+﻿using System.ComponentModel;
+using System.Diagnostics;
 using bootcamp.NET.models;
 using dotnetBootcamp.models;
 
-
-
-
-
-
 /* 
+
+//14- MENU INTERATIVO
+string opcao;
+bool menu = true;
+
+while(menu) {
+    Console.Clear();
+    Console.WriteLine("Digite sua opção: ");
+    Console.WriteLine("1- Cadastrar cliente ");
+    Console.WriteLine("2- Buscar cliente ");
+    Console.WriteLine("3- Apagar cliente ");
+    Console.WriteLine("4- Encerrar");
+
+    opcao = Console.ReadLine(); 
+
+    switch(opcao) {
+        
+        case "1":
+            Console.WriteLine("Cadastro cliente"); 
+            break; 
+
+        case "2":
+            Console.WriteLine("Busca cliente"); 
+            break; 
+
+        case "3":
+            Console.WriteLine("Apagar cliente"); 
+            break; 
+
+        case "4":
+            Console.WriteLine("Programa encerrado"); 
+            menu = false;
+            break; 
+
+        default:
+            Console.WriteLine("Opção inválida");
+            break;
+    }
+}
+
+
+
+
+
+//13: LAÇO DE REPETIÇÃO DO WHILE
+int soma = 0; 
+int numero = 0;
+
+do {
+    Console.WriteLine("Digite o número para parar o programa: ");
+    numero = Convert.ToInt32(Console.ReadLine());  
+
+    soma += numero;
+
+} while(numero != 0);
+
+Console.WriteLine($"A soma dos números digitados é: {soma}");
+
+
+
+
+
+//12- LAÇO DE REPETIÇÃO WHILE
+
+int numero =5;
+int contador = 0;
+
+while (contador <= 10) {
+Console.WriteLine($"{contador}° Execução: {numero} * {contador} = {numero * contador}");
+contador++;
+}
+
+
+
+
+
+//11- LAÇO DE REPETIÇÃO: FOR
+int numero = 5;
+
+for(int contador = 0; contador <=10; contador++){
+    Console.WriteLine($"{numero} * {contador} = {numero * contador}");
+}
+
+
+
+
+
 //10- Incremento e decremento
 int numero = 10;
 
