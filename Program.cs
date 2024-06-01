@@ -1,8 +1,58 @@
 ﻿using System.Diagnostics;
 using bootcamp.NET.models;
 
-/*
-2- OPERADORES CONDICIONAIS COM SWITCH CASE
+
+/* OPERATORS
+
+//6- OPERADORES LÓGICOS: ! 
+
+bool choveu = true;
+bool estaTarde = true; 
+
+if (!choveu && !estaTarde) {
+    Console.WriteLine("Vou pedalar!"); 
+}
+else {
+    Console.WriteLine("Vou pedalar outro dia!");
+}
+
+
+
+
+
+//5- OPERADORES LÓGICOS: &&
+
+bool presencaMinima = true;
+double media = 7.5;
+
+if (presencaMinima && media >= 7) {
+    Console.WriteLine("Aprovado!");
+}
+else {
+    Console.WriteLine("Reprovado!");
+}
+
+
+
+
+
+//4- OPERADORES LÓGICOS: ||
+
+bool maiorDeIdade = true;
+bool autorizaçãoResponsável = false;
+
+if (maiorDeIdade || autorizaçãoResponsável) {
+    Console.WriteLine("Entrada autorizada!");
+}
+else {
+    Console.WriteLine("Entrada não autorizada!");
+}
+
+
+
+
+
+//3- OPERADORES CONDICIONAIS COM SWITCH CASE
 
 Console.WriteLine("Digite uma letra: ");
 string letra = Console.ReadLine(); 
@@ -20,13 +70,12 @@ switch (letra){
         Console.WriteLine("Consoante");
         break;
 }
-*/
 
 
 
 
-/*
-2- OPERADORES CONDICIONAIS COM IF ELSE
+
+//2- OPERADORES CONDICIONAIS COM IF ELSE
 
 int quantidadeEmEstoque = 0; 
 int quantidadeCompra = 4;
@@ -45,18 +94,17 @@ else if (possivelVenda) {
 else {
     Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque."); 
     }
-*/
 
 
 
 
 
-/* 
-1- SINTAXE E INDENTAÇÃO
+//1- SINTAXE E INDENTAÇÃO
 
 Pessoa pessoa1 = new Pessoa();
 
 pessoa1.Nome = "Deborah";
 pessoa1.Idade = "25";
 pessoa1.Apresentar();
+
 */
