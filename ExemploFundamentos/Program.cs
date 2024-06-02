@@ -2,21 +2,48 @@
 using System.Diagnostics;
 using ExemploFundamentos.Common.Models;
 
-/* 
+/* EXERCÍCIOS DE FIXAÇÃO
 
-//15- ARRAYS
+
+16- LISTAS:
+
+List<string> listaString = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("RJ");
+listaString.Add("BA");
+
+//Percorrendo a lista com FOR
+for(int contador = 0; contador <listaString.Count; contador++)
+{
+    Console.WriteLine($"Posição N° {contador} - {listaString[contador]}");
+}
+
+//Percorrendo a lista com FOREACH
+int contadorForEach = 0;
+foreach(string item in listaString) {
+    Console.WriteLine($"Posição N° {contadorForEach} - {item}");
+    contadorForEach++;
+}
+
+
+
+
+
+15- ARRAYS:
+
 int[] arrayInteiros = new int [3]; 
 
 arrayInteiros[0] = 72; 
 arrayInteiros[1] = 64;
 arrayInteiros[2] = 50;
 
-//Percorrendo o array com o FOR
+//Percorrendo o array com FOR
 for(int contador = 0; contador < arrayInteiros.Length; contador++) {
     Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
 }
 
-//Percorrendo o array com o FOREACH
+//Percorrendo o array com FOREACH
 foreach(int valor in arrayInteiros) {
     Console.WriteLine(valor);
 }
@@ -32,7 +59,8 @@ Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
 
 
-//14- MENU INTERATIVO
+14- MENU INTERATIVO:
+
 string opcao;
 bool menu = true;
 
@@ -75,7 +103,8 @@ while(menu) {
 
 
 
-//13: LAÇO DE REPETIÇÃO DO WHILE
+13- LAÇO DE REPETIÇÃO DO WHILE:
+
 int soma = 0; 
 int numero = 0;
 
@@ -93,7 +122,7 @@ Console.WriteLine($"A soma dos números digitados é: {soma}");
 
 
 
-//12- LAÇO DE REPETIÇÃO WHILE
+12- LAÇO DE REPETIÇÃO WHILE:
 
 int numero =5;
 int contador = 0;
@@ -107,7 +136,8 @@ contador++;
 
 
 
-//11- LAÇO DE REPETIÇÃO: FOR
+11- LAÇO DE REPETIÇÃO FOR:
+
 int numero = 5;
 
 for(int contador = 0; contador <=10; contador++){
@@ -118,7 +148,8 @@ for(int contador = 0; contador <=10; contador++){
 
 
 
-//10- Incremento e decremento
+10- INCREMENTO E DECREMENTO:
+
 int numero = 10;
 
 Console.WriteLine(numero);
@@ -133,7 +164,8 @@ Console.WriteLine(numero);
 
 
 
-//9- Classe Math: funções trigonométricas
+9- CLASSE MATH E FUNÇÕES TRIGONOMÉTRICAS:
+
 Calculadora calc = new Calculadora();
 
 calc.Seno(30);
@@ -144,7 +176,8 @@ calc.Tangente(30);
 
 
 
-// 8- Classe Math: potência
+8- CLASSE MATH E POTÊNCIA:
+
 Calculadora calc = new Calculadora();
 calc.Potencia(3, 3);
 
@@ -152,7 +185,8 @@ calc.Potencia(3, 3);
 
 
 
-// 7- Operadores aritiméticos 
+7- OPERADORES ARITIMÉTICOS:
+
 Calculadora calc = new Calculadora();
 
 calc.Somar(10, 30);
@@ -164,7 +198,7 @@ calc.Dividir(2, 2);
 
 
 
-//6- OPERADORES LÓGICOS: ! 
+6- OPERADOR LÓGICO "!" :
 
 bool choveu = true;
 bool estaTarde = true; 
@@ -180,7 +214,7 @@ else {
 
 
 
-//5- OPERADORES LÓGICOS: &&
+5- OPERADOR LÓGICO "&&":
 
 bool presencaMinima = true;
 double media = 7.5;
@@ -196,7 +230,7 @@ else {
 
 
 
-//4- OPERADORES LÓGICOS: ||
+4- OPERADORE LÓGICO "||":
 
 bool maiorDeIdade = true;
 bool autorizaçãoResponsável = false;
@@ -212,7 +246,7 @@ else {
 
 
 
-//3- OPERADORES CONDICIONAIS COM SWITCH CASE
+3- OPERADORES CONDICIONAIS COM SWITCH CASE:
 
 Console.WriteLine("Digite uma letra: ");
 string letra = Console.ReadLine(); 
@@ -235,7 +269,7 @@ switch (letra){
 
 
 
-//2- OPERADORES CONDICIONAIS COM IF ELSE
+2- OPERADORES CONDICIONAIS COM IF ELSE:
 
 int quantidadeEmEstoque = 0; 
 int quantidadeCompra = 4;
@@ -259,7 +293,7 @@ else {
 
 
 
-//1- SINTAXE E INDENTAÇÃO
+1- SINTAXE E INDENTAÇÃO:
 
 Pessoa pessoa1 = new Pessoa();
 
