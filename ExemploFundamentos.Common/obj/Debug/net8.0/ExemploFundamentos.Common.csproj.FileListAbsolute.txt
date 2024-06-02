@@ -1,0 +1,12 @@
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\bin\Debug\net8.0\ExemploFundamentos.Common.deps.json
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\bin\Debug\net8.0\ExemploFundamentos.Common.dll
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\bin\Debug\net8.0\ExemploFundamentos.Common.pdb
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.AssemblyInfoInputs.cache
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.AssemblyInfo.cs
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.csproj.CoreCompileInputs.cache
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.sourcelink.json
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.dll
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\obj\Debug\net8.0\refint\ExemploFundamentos.Common.dll
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.pdb
+C:\Users\Deborah\Documents\GITHUB\dotnetBootcamp\ExemploFundamentos.Common\obj\Debug\net8.0\ref\ExemploFundamentos.Common.dll
